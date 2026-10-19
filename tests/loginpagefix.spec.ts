@@ -40,7 +40,7 @@ test('return customerheader present', async({loginpage})=>{
 
 test('login the user',async({loginpage})=>{
     
-    await loginpage.doLogin(process.env.USERNAME!, process.env.PASSWORD!);
+    await loginpage.doLogin(process.env.PW_USERNAME!, process.env.PW_PASSWORD!);
 })
 
 test('iam returning account test', async({loginpage})=>{

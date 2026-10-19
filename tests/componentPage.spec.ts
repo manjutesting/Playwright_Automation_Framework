@@ -9,7 +9,7 @@ test.beforeEach(async ({ page }) => {
      loginpage = new LoginPage(page);
      componetPage = new ComponetPage(page); 
      await loginpage.goToLoginpage();
-     await loginpage.doLogin(process.env.USERNAME!, process.env.PASSWORD!)
+     await loginpage.doLogin(process.env.PW_USERNAME!, process.env.PW_PASSWORD!)
      
      
 

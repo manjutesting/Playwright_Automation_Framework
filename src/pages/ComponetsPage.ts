@@ -17,7 +17,7 @@ export class ComponetPage extends BasePage{
      constructor(page:Page) {
         super(page);
         
-        this.homeIcon = page.locator('i.fa.fa-home');
+        this.homeIcon = page.locator('ul.breadcrumb li a[href*="route=common/home"]');
         this.deskTop = page.getByRole('link', { name: 'Desktops', exact: true });
         this.lapTopNoteBook = page.getByRole('link', { name: 'Laptops & Notebooks' }).first();
         this.compoNents = page.getByRole('link', { name: 'Components' }).first();
@@ -46,7 +46,7 @@ export class ComponetPage extends BasePage{
 
  async homeIconClicked(){
     await this.page.waitForTimeout(5000)
-    await this.homeIcon.click();
+    await this.homeIcon.click({ force: true });
  }
   async validateNavItems() {
   for (let item of this.navItems) {

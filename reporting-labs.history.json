@@ -1,0 +1,107 @@
+[
+ {
+  "time": 1792383485740,
+  "duration": 30572.718999999997,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/componentPage.spec.ts::validate nav items": [
+    "f",
+    27305
+   ]
+  }
+ },
+ {
+  "time": 1792383556055,
+  "duration": 23647.996,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/componentPage.spec.ts::validate nav items": [
+    "f",
+    22892
+   ]
+  }
+ },
+ {
+  "time": 1792383975583,
+  "duration": 12487.942,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/componentPage.spec.ts::validate nav items": [
+    "f",
+    11771
+   ]
+  }
+ },
+ {
+  "time": 1792384010046,
+  "duration": 24352.903000000002,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/componentPage.spec.ts::validate nav items": [
+    "f",
+    23665
+   ]
+  }
+ },
+ {
+  "time": 1792384098261,
+  "duration": 32097.797000000002,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/componentPage.spec.ts::validate nav items": [
+    "f",
+    30566
+   ]
+  }
+ },
+ {
+  "time": 1792384466741,
+  "duration": 46723.928,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/componentPage.spec.ts::validate nav items": [
+    "f",
+    30454
+   ]
+  }
+ },
+ {
+  "time": 1792384681049,
+  "duration": 19230.944,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/componentPage.spec.ts::validate nav items": [
+    "p",
+    18112
+   ]
+  }
+ }
+]
