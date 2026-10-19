@@ -10,7 +10,7 @@ type APIFixtures= {
 
 export let test=baseTest.extend<APIFixtures>({
     apiHelper:async({request}, use)=>{
-            let apiHelper = new ApiHelper(request,process.env.API_BASE_URL);
+            let apiHelper = new ApiHelper(request,process.env.API_BASE_URL!);
             await use(apiHelper);
         }
 })
