@@ -5,6 +5,7 @@ import { HomePage } from '../pages/HomePage';
 import { RegisterPage } from '../pages/RegisterPage';
 import { SearchResultsPage } from '../pages/SearchResultPage';
 import { ProductInfoPage } from '../pages/ProductInfoPage';
+import { ComponetPage } from '../pages/ComponetsPage';
 
 type pagefixtures = {
     basepage: BasePage;
@@ -13,6 +14,7 @@ type pagefixtures = {
     registerpage:RegisterPage;
     searchresultpage:SearchResultsPage;
     productinfopage:ProductInfoPage;
+    componetPage:ComponetPage;
     
 
 };
@@ -44,6 +46,11 @@ export let test = baseTest.extend<pagefixtures>({
     productinfopage: async ({ page }, use) => {
     const productinfopage = new ProductInfoPage(page);
     await use(productinfopage);
+  },
+
+  componetPage: async ({ page }, use) => {
+    const componetPage = new ComponetPage(page);
+    await use(componetPage);
   }
   
 })
