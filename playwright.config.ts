@@ -25,12 +25,12 @@ export default defineConfig({
   reporter: process.env.CI
     ? [
       ["blob"],
-      ['list'],
-      ['html', { outputFolder: "reports/html-report", open: "never" }],
-      ["allure-playwright", {
-        outputFolder: "allure-results",
-        suiteTitle: true,
-      }],
+      // ['list'],
+      // ['html', { outputFolder: "reports/html-report", open: "never" }],
+      // ["allure-playwright", {
+      //   outputFolder: "allure-results",
+      //   suiteTitle: true,
+      // }],
       ['reporting-labs', reportingLabs]
     ]
     :
