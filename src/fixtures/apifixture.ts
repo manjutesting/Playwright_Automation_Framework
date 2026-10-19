@@ -1,5 +1,5 @@
 import {test as baseTest} from '@playwright/test'
-import { ApiHelper } from '../api/APIHelper'
+import { ApiHelper } from '../api/ApiHelper'
 import process from 'node:process'
 
 //define type for API fixtures:
